@@ -1,9 +1,11 @@
 import './index.css';
 
-const Button = () => {
+const Button = (props) => {
+    const { buttonText } = props;
+
     return (
         <div className="landing-button">
-            Notificarme
+            {buttonText}
         </div>
     );
 } 

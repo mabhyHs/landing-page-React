@@ -1,9 +1,11 @@
 import './index.css';
 
-const Text = () => {
+const Text = (props) => {
+const{text, color, fontSize, letterSpacing } = props;
+
     return(
-        <p style ={{ color:'black', fontSize:'14px', letterSpacing:'2px' }} className="landing-text">
-            ¡Vamos a celebrar el lanzamiento de nuestro nuevo sitio!
+        <p style ={{ color, fontSize, letterSpacing}} className="landing-text">
+            {text}        
         </p>
     );
 }

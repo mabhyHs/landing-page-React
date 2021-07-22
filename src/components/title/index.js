@@ -1,9 +1,11 @@
 import './index.css';
 
-const Title =() =>{
+const Title = (props) =>{
+    const { title, color, fontSize, letterSpacing } = props;
+
     return (
-        <h1 style ={{ color:'black', fontSize:'90px', letterSpacing:'15px' }} className="landing-title">
-            PRÓXIMA<br /> MENTE
+        <h1 style ={{ color, fontSize, letterSpacing}} className="landing-title">
+           {title}
         </h1>
     );
 }
