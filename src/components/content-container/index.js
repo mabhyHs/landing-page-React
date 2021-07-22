@@ -1,11 +1,13 @@
 import './index.css';
 import Button from '../button';
+import Title from '../title';
+import Text from '../text';
 
 const ContentContainer =() =>{
     return (
         <div className="content-container">
-            <h1>PRÓXIMAMENTE</h1>
-            <p>¡Vamos a celebrar el lanzamiento de nuestro nuevo sitio!</p>
+            <Title />            
+            <Text />            
             <Button />
         </div>
     );
