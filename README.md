@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Landing creada con React, trabajo práctico final del curso de "React.js Básico" de Rocketcode
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
