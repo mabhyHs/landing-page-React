@@ -1,6 +1,6 @@
-# Landing creada con React, trabajo práctico final del curso de "React.js Básico" de Rocketcode
+# Landing creada con React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Trabajo práctico final del curso de "React.js Básico" de Rocketcode.
 
 ## Available Scripts
 
