@@ -1,12 +1,9 @@
 import './index.css';
 
 const Text = (props) => {
-const{text, color, fontSize, letterSpacing } = props;
-
-    return(
-        <p style ={{ color, fontSize, letterSpacing}} className="landing-text">
-            {text}        
-        </p>
+    const { color, fontSize, letterSpacing, text } = props;
+    return (
+        <p style={{ color, fontSize, letterSpacing }} className="landing-text">{text}</p>
     );
 }
 

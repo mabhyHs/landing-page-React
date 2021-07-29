@@ -1,4 +1,4 @@
-.landing-button{
+.lading-button {
     color: #ffffff;
     background-color: #00e6c9;
     width: 170px;
@@ -10,6 +10,6 @@
     cursor: pointer;
 }
 
-.landing-button:hover{
-    background-color: #df12ac;
+.lading-button:hover {
+    background-color: #0aa893;
 }
